@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./src/image/back.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 650px;
+    height: 800px;
+    /* background-color: rgb(161, 26, 26); */
+    border-radius: 20px;
+    box-shadow: 0 0 15px purple;
+    margin: auto;
+
+}
+.register{
+    padding-top: 20px;
+    color: rgb(16, 58, 60);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.first{
+    color:rgb(9, 46, 58);
+    padding-right: 400px;
+    
+}
+.firstname{
+    padding: 8px;
+    margin-right:230px;
+    margin-top: 10px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+
+}
+.last{
+    color:rgb(9, 46, 58);
+
+position: relative;
+top:-35px;
+right: 120px;
+}
+.lastname{
+    padding: 8px;
+    position: relative;
+    top: -54px;
+    left: 140px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+
+}
+.email{
+    color:rgb(9, 46, 58);
+    position: absolute;
+    left: 370px;
+}
+.iconE{
+position: absolute;
+right: 400px;
+padding-top: 5px;
+color: white;
+z-index: 1;
+}
+.email1{
+    position: absolute;
+    left: 370px;
+    padding: 8px;
+    width: 470px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+
+
+}
+.password{
+    color:rgb(9, 46, 58);
+
+    padding-right: 415px;
+}
+.pass{
+    position: absolute;
+    left: 371px;
+    margin-top: 15px;
+    width: 470px;
+    padding: 8px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+}
+.icon{
+    position: absolute;
+    right: 400px;
+    padding-top: 22px;
+    color: white;
+}
+.organization{
+    color:rgb(9, 46, 58);
+
+padding-right: 350px;
+
+}
+.organ{
+    position: absolute;
+    left: 371px;
+    margin-top: 15px;
+    width: 470px;
+    padding: 8px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+}
+.size{
+    color:rgb(9, 46, 58);
+    padding-right: 350px;
+}
+.option{
+    position: absolute;
+    left: 371px;
+    /* margin-top: 15px; */
+    width: 470px;
+    padding: 8px;
+    background-color: rgb(142, 40, 238);
+    border-style: hidden;
+    border-radius: 5px;
+    color: gray;
+}
+.industry{
+    color:rgb(9, 46, 58);
+    padding-right:400px;
+
+}
+.p1{
+    color:rgb(19, 64, 78);
+    width: 610px;
+    padding-left:80px;
+    padding-top: 20px;
+    
+}
+
+.btn{
+background-color: darkslateblue;
+color: black;
+border-style: hidden;
+padding: 10px;
+border-radius: 15px;
+margin-top: 30px;
+}
+.btn:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.u{
+    color: blue;
+}
+.span{
+    color:rgb(19, 64, 78);
+
+}
+.second{
+    width: 400px;
+    /* height: 400px; */
+    box-shadow: 0 0 15px purple;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding: 10px;
+}
